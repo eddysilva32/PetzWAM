@@ -26,7 +26,7 @@ public class Product extends Base {
 
     //Ler o titulo do produto
     public String readProductTitle(){
-        productTitle.getText();
+        return productTitle.getText();
     }
 
     //Ler o preço atual
